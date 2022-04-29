@@ -11,5 +11,7 @@ that's actually pretty easy. just follow these steps:
 okay, on windows thats pretty straightforward. download python from its website.
 on linux it will probably come preinstalled. if not, it's your job installing.
 
+# on billy g windows
 double click on windows to run scripts.
-open the terminal and type  ```python <scriptname>.py```
+# on linux
+open the terminal and type  ```python <scriptname>.py``` on linux.
