@@ -18,7 +18,7 @@ python -m pip install pillow
 ````
 # okay, how to use?
 that's actually pretty easy. just follow these steps:
-1. run ```camera.py``` and let it do take photos as long as you want to record
+1. run ```camera.py``` and let it to take photos as long as you want to record
 2. run ```videomaker.py``` script. it will make a video out of your photos in a short time.
 3. lastly, if you want to add a perfect-and-hard-chosen shitpost music to your recording, ```run soundadd.py```.
 
