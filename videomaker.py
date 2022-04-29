@@ -24,9 +24,9 @@ for image in images:
     #print(str(dt_object))
     f = cv2.imread(os.path.join(image_folder, image))
     f = cv2.putText(cv2.imread(os.path.join(image_folder, image)), str(dt_object), org, font, 
-                #fontScale, color, thickness, cv2.LINE_AA)
+                fontScale, color, thickness, cv2.LINE_AA)
     f = cv2.putText(f, "~{} mins/sec".format(round((fps * period)/60, 2)), (30, 30), font, 
-                    #fontScale, color, thickness, cv2.LINE_AA)
+                    fontScale, color, thickness, cv2.LINE_AA)
     video.write(f)
 cv2.destroyAllWindows()
 video.release()
