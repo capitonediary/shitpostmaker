@@ -3,7 +3,7 @@ make shitposts effortlessly (what a time to be alive!)
 
 # what to do first
 sadly, i'm going to explain this for linux only.
-run as root:
+run as root: <br />
 for arch and derivatives:
 ```
 pacman -S ffmpeg
