@@ -4,11 +4,18 @@ make shitposts effortlessly (what a time to be alive!)
 # what to do first
 sadly, i'm going to explain this for linux only.
 run as root:
+for arch and derivatives:
 ```
-     pacman -S ffmpeg
-     python -m pip install opencv-python
-     python -m pip install pillow
+pacman -S ffmpeg
+python -m pip install opencv-python
+python -m pip install pillow
 ```
+on ubuntu and derivatives:
+```
+apt-get install -S ffmpeg
+python -m pip install opencv-python
+python -m pip install pillow
+````
 # okay, how to use?
 that's actually pretty easy. just follow these steps:
 1. run ```camera.py``` and let it do take photos as long as you want to record
